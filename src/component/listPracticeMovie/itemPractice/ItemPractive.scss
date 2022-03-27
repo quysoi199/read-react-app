@@ -1,0 +1,39 @@
+.itemListPractice {
+  .itemWrapPractice {
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    transform: scale(1);
+    background-color: black;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+      border-radius: 10px;
+      transform: scale(1.03);
+      .iconPlay {
+        position: absolute;
+      }
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .iconPlay {
+    top: 160px;
+    right: 5px;
+    color: rgb(17, 0, 255);
+    font-size: 25px;
+  }
+  .tagMoviePractice {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,57 @@
+.wrapDetaiItem {
+  font-size: 15px;
+  display: none;
+
+  .DetailItemName {
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    &:hover {
+      color: #2c3;
+    }
+  }
+  .wrapDetail {
+    color: #fff;
+    display: flex;
+    .wrapDetailInfo {
+      margin: 5px 5px;
+    }
+  }
+  .wrapCategory {
+    display: flex;
+    color: #fff;
+    margin: 5px 5px;
+    .categoryMovie {
+      padding: 3px 2px;
+      font-size: 15px;
+      margin: 1px 1px;
+      background-color: rgba(41, 41, 41, 0.8);
+    }
+  }
+  .filmInfo {
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: var(--text-color);
+    height: 124px;
+    overflow: hidden;
+    // display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+  .btnDetailitem {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .btnDetailitem {
+    padding: 10px;
+    cursor: pointer;
+  }
+}

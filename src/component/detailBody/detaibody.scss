@@ -1,0 +1,100 @@
+.watch-banner > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(transparent 69%, #101114 115%);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+}
+.watch-banner span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.wrapWatchdetail {
+  .watchName {
+    padding: 5px;
+    font-size: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+      color: #0d90b1;
+    }
+  }
+  .watchInfo {
+    display: flex;
+    cursor: pointer;
+    .watchInfoDetail {
+      padding: 5px;
+      font-size: 20px;
+    }
+    .watchInfoSta {
+      padding: 5px;
+      font-size: 20px;
+      color: rgb(8, 88, 55);
+      font-weight: 800;
+    }
+  }
+  .watchDetail {
+    cursor: pointer;
+    display: flex;
+    margin: 5px 5px;
+    .watchInfoDetail {
+      padding: 3px 2px;
+      font-size: 15px;
+      margin: 1px 1px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  .watchDetailsecond {
+    margin: 5px 5px;
+    .watchInfoDetail {
+      padding: 3px 2px;
+      font-size: 15px;
+      margin: 1px 1px;
+    }
+  }
+  .btnWatch {
+    margin: 5px 5px;
+    color: #fff;
+    display: flex;
+    .btnWatchMS {
+      padding: 3px 26px;
+      font-size: 22px;
+      margin: 5px 5px 5px 0;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: rgba(7, 126, 57);
+      .iconWatch {
+        margin: 5px 5px;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .btnWatchM {
+      padding: 3px 26px;
+      font-size: 22px;
+      margin: 5px 5px 5px 0;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: rgba(98, 121, 119);
+      .iconWatch {
+        margin: 5px 5px;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

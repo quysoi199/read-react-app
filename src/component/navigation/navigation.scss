@@ -1,0 +1,82 @@
+.navFirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  .imgLogo {
+    height: 66px;
+  }
+}
+
+.navInfo {
+  color: #fff;
+  align-items: center;
+
+  cursor: pointer;
+  &:hover {
+    color: #00ff99;
+  }
+}
+
+.navEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  outline: none;
+
+  .navInput {
+    width: 200px;
+    text-decoration: none;
+    opacity: 70%;
+  }
+  .navIcon {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+  .navFinal {
+    display: flex;
+  }
+}
+
+#components-dropdown-demo-arrow-center .ant-btn {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.ant-row-rtl #components-dropdown-demo-arrow-center .ant-btn {
+  margin-right: 0;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.dropdownType {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 360px;
+  height: 200px;
+  flex-direction: row;
+  background: rgb(13, 0, 51, 30%);
+
+  .hoverType {
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+      color: #00ff99;
+    }
+  }
+}
+
+.btnNav {
+  color: #fff;
+  background: rgb(13, 0, 51, 30%);
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    color: #00cc00;
+  }
+}
